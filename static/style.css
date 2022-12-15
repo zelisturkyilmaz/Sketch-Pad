@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leftSection {
+    border: 3px solid red;
+    width: 480px;
+    height: 480px;
+}
+
+.rightSection {
+    /* border: 1px solid red; */
+    width: 480px;
+    height: 480px;
+    display: grid;
+}
+
+.square {
+    border: 0.01px solid #181818;
+}
