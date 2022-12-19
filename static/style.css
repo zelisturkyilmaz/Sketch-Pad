@@ -107,7 +107,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: rgb(52, 52, 52);
+    background: #404040;
 }
 
 .square {
