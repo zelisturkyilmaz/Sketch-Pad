@@ -8,21 +8,36 @@
 
 body {
     font-family: "Cabin Sketch", sans-serif;
+    text-align: center;
     background-color: #a0a0a0;
 }
 
 header {
-    text-align: center;
-    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon, .psuedo {
+    align-self: flex-start;
+    padding: 10px;
 }
 
 .title {
-    padding-bottom: 20px;
     font-size: 100px;
+    width: 100%;
+    padding: 20px 0;
 }
 
-header>p {
+.psuedo {
+    width: 70px;
+    height: 75px;
+}
+
+p {
     font-size: 25px;
+    padding-bottom: 20px;
 }
 
 main {
