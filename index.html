@@ -8,20 +8,26 @@
     <script src="static/script.js" defer></script>
     <title>Sketch Pad</title>
 </head>
-<body>    
-    <h1>Sketch Pad</h1>
-    <p>Pick a color, pick the grid size and start drawing!</p>
-    
-    <div class="container">
-        <!-- <div class="leftSection">
-            <button class="gridNumber">32</button>
-        </div> -->
-        <div class="rightSection">
-
+<body>  
+    <header>  
+        <h1 class="title">Sketch Pad</h1>
+        <p>Pick a color, choose the grid size and start drawing!</p>
+    </header>
+    <main>
+        <div class="leftContainer">
+            <div class="colorContainer">
+                <label for="colorPicker">Pen color:</label>
+                <input id="colorPicker" type="color" value="black" name="colorPicker">
+            </div>
+            <div>
+                <div id="sizeValue" class="sizeValue">Grid size: 16 x 16</div>
+                <input id="sizeSlider" type="range" value="16" min="1" max="64">
+            </div>
+            <button id="clearButton">Clear</button>
+        </div>
+        <div class="gridArea" id="gridArea">
         </div>
 
-    </div>
-    
-    
+    </main>
 </body>
 </html>
